@@ -1,2 +1,59 @@
-hello
-goodbye
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo">
+            <img src="your-photo.jpg" alt="Your Name">
+        </div>
+        <h1>Hello, I'm [Your Name]</h1>
+        <p>
+            I am a [Your Profession or Role] with a passion for [Your Interests or Hobbies]. With a background in [Your Background], I have developed skills in [Your Skills]. 
+            I am currently working on [Your Current Projects or Work].
+        </p>
+        <p>
+            In my free time, I enjoy [Your Hobbies or Interests]. I am always eager to learn new things and take on new challenges.
+        </p>
+        <p>
+            Feel free to connect with me on [Your Social Media Links or Email].
+        </p>
+    </div>
+</body>
+</html>
+
